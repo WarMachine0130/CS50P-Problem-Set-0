@@ -13,6 +13,6 @@ def convert(str):
     return ''.join(str)
 def main():
     usrString = input('Input: ')
-    print(convert(usrString))
+    print(convert(usrString)) 
     
 main()

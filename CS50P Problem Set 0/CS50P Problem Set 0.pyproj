@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>a3e23aa2-3efe-4f09-b970-cd3c7dcbe4c1</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>faces.py</StartupFile>
+    <StartupFile>tip.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,9 +22,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="einstein.py" />
     <Compile Include="faces.py" />
     <Compile Include="indoor.py" />
     <Compile Include="playback.py" />
+    <Compile Include="tip.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env1\">
